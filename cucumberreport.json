@@ -1,0 +1,492 @@
+[
+  {
+    "description": "    Feature i am going to valididate calcualtor application",
+    "elements": [
+      {
+        "description": "",
+        "id": "testing-cucumber;calculator-add-funcationality-testing",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "calculator add funcationality testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "i will nivigate to \"calc\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "i will run fumction of add using two numbers \"10\" and \"15\"",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "after operation perform and \"25\" display in console",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calcualtorTesting",
+            "line": 5
+          },
+          {
+            "name": "@calcualtorTesting",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testing-cucumber;calculator-add-funcationality-testing",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "calculator add funcationality testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "i will nivigate to \"calc\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "i will run fumction of add using two numbers \"20\" and \"15\"",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "after operation perform and \"35\" display in console",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3589000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calcualtorTesting",
+            "line": 5
+          },
+          {
+            "name": "@calcualtorTesting",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testing-cucumber;calculator-add-funcationality-testing",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "calculator add funcationality testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 268000000,
+              "error_message": "WebDriverError: unknown error: failed to change window state to 'normal', current state is 'maximized'\n  (Session info: chrome=88.0.4324.150)\n  (Driver info: chromedriver=88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (E:\\Protractor_TypeScript_Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (E:\\Protractor_TypeScript_Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at E:\\Protractor_TypeScript_Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.manage().window().maximize()\n    at Driver.schedule (E:\\Protractor_TypeScript_Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Window.maximize (E:\\Protractor_TypeScript_Cucumber\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1686:25)\n    at E:\\Protractor_TypeScript_Cucumber\\stepDefinitation\\hooks.ts:9:44\n    at Generator.next (<anonymous>)\n    at E:\\Protractor_TypeScript_Cucumber\\JSFiles\\stepDefinitation\\hooks.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (E:\\Protractor_TypeScript_Cucumber\\JSFiles\\stepDefinitation\\hooks.js:4:12)\n    at World.<anonymous> (E:\\Protractor_TypeScript_Cucumber\\stepDefinitation\\hooks.ts:8:48)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "i will nivigate to \"calc\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "i will run fumction of add using two numbers \"30\" and \"15\"",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "after operation perform and \"45\" display in console",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 339000000,
+              "error_message": "TypeError: Cannot read property 'attach' of undefined\n    at E:\\Protractor_TypeScript_Cucumber\\stepDefinitation\\hooks.ts:29:8\n    at Generator.next (<anonymous>)\n    at fulfilled (E:\\Protractor_TypeScript_Cucumber\\JSFiles\\stepDefinitation\\hooks.js:5:58)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@calcualtorTesting",
+            "line": 5
+          },
+          {
+            "name": "@calcualtorTesting",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testing-cucumber;navigate-to-anagular-page",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "navigate to anagular page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "i will nivigate to \"angular\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5030000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "click on angulor link",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4026000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "navigate to angular page",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user enter \"krishan\" in search box",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3343000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@angularTesting",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testing-cucumber;navigate-to-anagular-page",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "navigate to anagular page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "i will nivigate to \"angular\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "click on angulor link",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "navigate to angular page",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user enter \"kant\" in search box",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3246000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@angularTesting",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "testing-cucumber;navigate-to-anagular-page",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "navigate to anagular page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "i will nivigate to \"angular\" website",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "click on angulor link",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "navigate to angular page",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "user enter \"singh\" in search box",
+            "match": {
+              "location": "stepDefinitation\\steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3202000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@angularTesting",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "testing-cucumber",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "testing cucumber",
+    "tags": [],
+    "uri": "features\\demo.feature"
+  }
+]
